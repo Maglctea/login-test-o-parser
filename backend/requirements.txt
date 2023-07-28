@@ -1,6 +1,6 @@
 Django==4.2.3
 djangorestframework==3.14.0
-django-admin-adminlte==1.0.5
+django-adminlte3==0.1.6
 drf-yasg==1.21.7
 celery==5.3.1
 python-dotenv==1.0.0
