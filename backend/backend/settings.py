@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/4.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
-
+import os
 from pathlib import Path
 from dotenv import load_dotenv
 
@@ -144,4 +144,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 # Celery
 CELERY_BROKER_URL = "redis://127.0.0.1:16379"
-CELERY_RESULT_BACKEND = "redis://127.0.0.1:16379"
+# CELERY_RESULT_BACKEND = "redis://127.0.0.1:16379"
+CELERY_RESULT_BACKEND = 'django-db'
+CELERY_RESULT_EXTENDED = True
+DJANGO_CELERY_RESULTS_TASK_ID_MAX_LENGTH=191
+PARSER_LINK = os.getenv("PARSER_LINK")
