@@ -11,8 +11,7 @@ def parsing_start(count: int):
 
     Product.objects.all().delete()
     for product in product_list:
-        Product.objects.create(title=product['name'], url_product=product['url'], url_photo=product['image_url'],
-                               price=product['price'])
+        Product.objects.create(name=product['name'], url=product['url'])
 
     redis_connection.lpush('parser', f'parser complete {len(product_list)}')
     return len(product_list)
