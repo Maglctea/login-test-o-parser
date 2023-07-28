@@ -5,6 +5,7 @@ import asyncio
 from datetime import datetime
 
 from aiogram import Bot, Dispatcher
+from aiogram.fsm.storage.memory import MemoryStorage
 from aiogram.types import BotCommand
 
 from bot.bot_texts import BOT_COMMANDS_INFO
@@ -50,9 +51,6 @@ async def async_main() -> None:
         }
     )
     scheduler.start()
-
-
-
 
     # register permission middleware
     dp.message.middleware.register(PermissionCheckMiddleware())

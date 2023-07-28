@@ -1320,3 +1320,1033 @@ connector: <aiohttp.connector.TCPConnector object at 0x00000229C4F8E390>
 2023-07-28 14:49:41,930 - aiogram.event - INFO - Update id=463301417 is handled. Duration 405 ms by bot id=5860538708
 2023-07-28 15:03:58,258 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 15:03:58 MSK)" skipped: maximum number of running instances reached (1)
 2023-07-28 15:03:59,269 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 15:03:59 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 17:06:07,383 - aiogram.dispatcher - INFO - Polling stopped
+2023-07-28 17:06:07,401 - aiogram.dispatcher - INFO - Polling stopped for bot @FortuHost_bot id=5860538708 - 'Fortuhost'
+2023-07-28 17:06:07,407 - root - DEBUG - Bot stopped
+2023-07-28 17:06:52,629 - asyncio - DEBUG - Using proactor: IocpProactor
+2023-07-28 17:06:53,095 - aiogram.dispatcher - INFO - Start polling
+2023-07-28 17:06:53,184 - aiogram.dispatcher - INFO - Run polling for bot @FortuHost_bot id=5860538708 - 'Fortuhost'
+2023-07-28 17:07:05,793 - aiogram.event - INFO - Update id=463301418 is handled. Duration 437 ms by bot id=5860538708
+2023-07-28 17:08:11,775 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8000
+2023-07-28 17:08:11,781 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8000 "GET /v1/products/ HTTP/1.1" 200 5060
+2023-07-28 17:08:11,782 - aiogram.event - INFO - Update id=463301419 is handled. Duration 421 ms by bot id=5860538708
+2023-07-28 17:08:14,017 - aiogram.event - INFO - Update id=463301420 is not handled. Duration 16 ms by bot id=5860538708
+2023-07-28 17:08:54,272 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8000
+2023-07-28 17:08:54,323 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8000 "POST /v1/products/ HTTP/1.1" 200 0
+2023-07-28 17:08:54,543 - aiogram.event - INFO - Update id=463301421 is handled. Duration 733 ms by bot id=5860538708
+2023-07-28 17:09:19,026 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8000
+2023-07-28 17:09:19,039 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8000 "POST /v1/products/ HTTP/1.1" 200 0
+2023-07-28 17:09:19,212 - aiogram.event - INFO - Update id=463301422 is handled. Duration 359 ms by bot id=5860538708
+2023-07-28 17:10:03,787 - aiogram.dispatcher - INFO - Polling stopped
+2023-07-28 17:10:03,789 - aiogram.dispatcher - INFO - Polling stopped for bot @FortuHost_bot id=5860538708 - 'Fortuhost'
+2023-07-28 17:10:03,790 - root - DEBUG - Bot stopped
+2023-07-28 17:10:13,997 - asyncio - DEBUG - Using proactor: IocpProactor
+2023-07-28 17:10:14,485 - aiogram.dispatcher - INFO - Start polling
+2023-07-28 17:10:14,579 - aiogram.dispatcher - INFO - Run polling for bot @FortuHost_bot id=5860538708 - 'Fortuhost'
+2023-07-28 17:10:22,718 - aiogram.event - INFO - Update id=463301423 is not handled. Duration 15 ms by bot id=5860538708
+2023-07-28 17:10:27,169 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8000
+2023-07-28 17:10:27,176 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8000 "GET /v1/products/ HTTP/1.1" 200 4955
+2023-07-28 17:10:27,178 - aiogram.event - INFO - Update id=463301424 is handled. Duration 546 ms by bot id=5860538708
+2023-07-28 17:10:41,189 - aiogram.dispatcher - INFO - Polling stopped
+2023-07-28 17:10:41,193 - aiogram.dispatcher - INFO - Polling stopped for bot @FortuHost_bot id=5860538708 - 'Fortuhost'
+2023-07-28 17:10:41,196 - root - DEBUG - Bot stopped
+2023-07-28 17:10:50,678 - asyncio - DEBUG - Using proactor: IocpProactor
+2023-07-28 17:10:51,222 - aiogram.dispatcher - INFO - Start polling
+2023-07-28 17:10:51,308 - aiogram.dispatcher - INFO - Run polling for bot @FortuHost_bot id=5860538708 - 'Fortuhost'
+2023-07-28 17:10:51,642 - aiogram.event - INFO - Update id=463301425 is not handled. Duration 16 ms by bot id=5860538708
+2023-07-28 17:11:05,057 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8000
+2023-07-28 17:11:05,063 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8000 "GET /v1/products/ HTTP/1.1" 200 4955
+2023-07-28 17:16:19,943 - asyncio - DEBUG - Using proactor: IocpProactor
+2023-07-28 17:16:20,385 - aiogram.dispatcher - INFO - Start polling
+2023-07-28 17:16:20,487 - aiogram.dispatcher - INFO - Run polling for bot @FortuHost_bot id=5860538708 - 'Fortuhost'
+2023-07-28 17:16:22,325 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8000
+2023-07-28 17:16:22,330 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8000 "GET /v1/products/ HTTP/1.1" 200 4955
+2023-07-28 17:16:22,608 - aiogram.event - INFO - Update id=463301427 is not handled. Duration 280 ms by bot id=5860538708
+2023-07-28 17:16:22,608 - aiogram.event - ERROR - Cause exception while process update id=463301427 by bot id=5860538708
+TelegramBadRequest: Telegram server says - Bad Request: message is too long
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 307, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 39, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 124, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 274, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 124, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\handlers\get_products.py", line 13, in get_products
+    await callback_query.message.answer(f"Вот тебе данные:\n\n{result}")
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\methods\base.py", line 82, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\client\bot.py", line 433, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\client\session\base.py", line 251, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 170, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\client\session\base.py", line 114, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message is too long
+2023-07-28 17:16:45,974 - aiogram.dispatcher - INFO - Polling stopped
+2023-07-28 17:16:45,975 - aiogram.dispatcher - INFO - Polling stopped for bot @FortuHost_bot id=5860538708 - 'Fortuhost'
+2023-07-28 17:16:45,977 - root - DEBUG - Bot stopped
+2023-07-28 17:16:54,091 - asyncio - DEBUG - Using proactor: IocpProactor
+2023-07-28 17:16:54,631 - aiogram.dispatcher - INFO - Start polling
+2023-07-28 17:16:54,741 - aiogram.dispatcher - INFO - Run polling for bot @FortuHost_bot id=5860538708 - 'Fortuhost'
+2023-07-28 17:16:55,327 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8000
+2023-07-28 17:16:55,333 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8000 "GET /v1/products/ HTTP/1.1" 200 4955
+2023-07-28 17:17:10,131 - aiogram.event - INFO - Update id=463301428 is not handled. Duration 14828 ms by bot id=5860538708
+2023-07-28 17:17:10,132 - aiogram.event - ERROR - Cause exception while process update id=463301428 by bot id=5860538708
+TelegramBadRequest: Telegram server says - Bad Request: message is too long
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 307, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 39, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 124, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 274, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 124, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\handlers\get_products.py", line 13, in get_products
+    await callback_query.message.answer(f"Вот тебе данные:\n\n{result}")
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\methods\base.py", line 82, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\client\bot.py", line 433, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\client\session\base.py", line 251, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 170, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\client\session\base.py", line 114, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message is too long
+2023-07-28 17:22:06,220 - aiogram.dispatcher - INFO - Polling stopped
+2023-07-28 17:22:06,224 - aiogram.dispatcher - INFO - Polling stopped for bot @FortuHost_bot id=5860538708 - 'Fortuhost'
+2023-07-28 17:22:06,227 - root - DEBUG - Bot stopped
+2023-07-28 17:22:09,454 - asyncio - DEBUG - Using proactor: IocpProactor
+2023-07-28 17:22:09,979 - aiogram.dispatcher - INFO - Start polling
+2023-07-28 17:22:10,071 - aiogram.dispatcher - INFO - Run polling for bot @FortuHost_bot id=5860538708 - 'Fortuhost'
+2023-07-28 17:22:15,783 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8000
+2023-07-28 17:22:15,789 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8000 "GET /v1/products/ HTTP/1.1" 200 4955
+2023-07-28 17:22:16,090 - aiogram.event - INFO - Update id=463301429 is not handled. Duration 312 ms by bot id=5860538708
+2023-07-28 17:22:16,091 - aiogram.event - ERROR - Cause exception while process update id=463301429 by bot id=5860538708
+TelegramBadRequest: Telegram server says - Bad Request: message is too long
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 307, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 39, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 124, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 274, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 124, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\handlers\get_products.py", line 14, in get_products
+    await callback_query.message.answer(f"Вот тебе данные:\n\n{result[:4080]}")
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\methods\base.py", line 82, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\client\bot.py", line 433, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\client\session\base.py", line 251, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 170, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\client\session\base.py", line 114, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message is too long
+2023-07-28 17:26:04,755 - aiogram.dispatcher - INFO - Polling stopped
+2023-07-28 17:26:04,757 - aiogram.dispatcher - INFO - Polling stopped for bot @FortuHost_bot id=5860538708 - 'Fortuhost'
+2023-07-28 17:26:04,758 - root - DEBUG - Bot stopped
+2023-07-28 17:26:07,345 - asyncio - DEBUG - Using proactor: IocpProactor
+2023-07-28 17:26:07,756 - aiogram.dispatcher - INFO - Start polling
+2023-07-28 17:26:07,844 - aiogram.dispatcher - INFO - Run polling for bot @FortuHost_bot id=5860538708 - 'Fortuhost'
+2023-07-28 17:26:11,992 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8000
+2023-07-28 17:26:11,996 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8000 "GET /v1/products/ HTTP/1.1" 200 4955
+2023-07-28 17:26:12,544 - aiogram.event - INFO - Update id=463301430 is handled. Duration 546 ms by bot id=5860538708
+2023-07-28 17:29:19,776 - aiogram.dispatcher - INFO - Polling stopped
+2023-07-28 17:29:19,777 - aiogram.dispatcher - INFO - Polling stopped for bot @FortuHost_bot id=5860538708 - 'Fortuhost'
+2023-07-28 17:29:19,778 - root - DEBUG - Bot stopped
+2023-07-28 17:29:22,439 - asyncio - DEBUG - Using proactor: IocpProactor
+2023-07-28 17:29:22,850 - aiogram.dispatcher - INFO - Start polling
+2023-07-28 17:29:22,941 - aiogram.dispatcher - INFO - Run polling for bot @FortuHost_bot id=5860538708 - 'Fortuhost'
+2023-07-28 17:29:27,104 - aiogram.event - INFO - Update id=463301431 is handled. Duration 312 ms by bot id=5860538708
+2023-07-28 17:29:30,863 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8000
+2023-07-28 17:29:30,867 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8000 "GET /v1/products/ HTTP/1.1" 200 4955
+2023-07-28 17:29:30,965 - aiogram.event - INFO - Update id=463301432 is not handled. Duration 94 ms by bot id=5860538708
+2023-07-28 17:29:30,965 - aiogram.event - ERROR - Cause exception while process update id=463301432 by bot id=5860538708
+TelegramBadRequest: Telegram server says - Bad Request: message is too long
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 307, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 39, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 124, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 274, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 124, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\handlers\get_products.py", line 14, in get_products
+    await callback_query.message.answer(result)
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\methods\base.py", line 82, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\client\bot.py", line 433, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\client\session\base.py", line 251, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 170, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\client\session\base.py", line 114, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message is too long
+2023-07-28 17:29:45,255 - aiogram.dispatcher - INFO - Polling stopped
+2023-07-28 17:29:45,256 - aiogram.dispatcher - INFO - Polling stopped for bot @FortuHost_bot id=5860538708 - 'Fortuhost'
+2023-07-28 17:29:45,257 - root - DEBUG - Bot stopped
+2023-07-28 17:29:47,873 - asyncio - DEBUG - Using proactor: IocpProactor
+2023-07-28 17:29:48,263 - aiogram.dispatcher - INFO - Start polling
+2023-07-28 17:29:48,360 - aiogram.dispatcher - INFO - Run polling for bot @FortuHost_bot id=5860538708 - 'Fortuhost'
+2023-07-28 17:29:50,173 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8000
+2023-07-28 17:29:50,177 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8000 "GET /v1/products/ HTTP/1.1" 200 4955
+2023-07-28 17:29:50,625 - aiogram.event - INFO - Update id=463301433 is handled. Duration 469 ms by bot id=5860538708
+2023-07-28 17:31:22,394 - aiogram.dispatcher - INFO - Polling stopped
+2023-07-28 17:31:22,395 - aiogram.dispatcher - INFO - Polling stopped for bot @FortuHost_bot id=5860538708 - 'Fortuhost'
+2023-07-28 17:31:22,397 - root - DEBUG - Bot stopped
+2023-07-28 17:31:24,991 - asyncio - DEBUG - Using proactor: IocpProactor
+2023-07-28 17:31:25,425 - aiogram.dispatcher - INFO - Start polling
+2023-07-28 17:31:25,525 - aiogram.dispatcher - INFO - Run polling for bot @FortuHost_bot id=5860538708 - 'Fortuhost'
+2023-07-28 17:31:29,807 - aiogram.event - INFO - Update id=463301434 is handled. Duration 391 ms by bot id=5860538708
+2023-07-28 17:31:35,458 - aiogram.event - INFO - Update id=463301435 is not handled. Duration 0 ms by bot id=5860538708
+2023-07-28 17:31:42,844 - aiogram.event - INFO - Update id=463301436 is handled. Duration 155 ms by bot id=5860538708
+2023-07-28 17:31:47,751 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8000
+2023-07-28 17:31:47,756 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8000 "GET /v1/products/ HTTP/1.1" 200 4955
+2023-07-28 17:31:48,053 - aiogram.event - INFO - Update id=463301437 is handled. Duration 312 ms by bot id=5860538708
+2023-07-28 17:32:07,119 - aiogram.event - INFO - Update id=463301438 is handled. Duration 421 ms by bot id=5860538708
+2023-07-28 17:32:08,081 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8000
+2023-07-28 17:32:08,086 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8000 "GET /v1/products/ HTTP/1.1" 200 4955
+2023-07-28 17:32:08,385 - aiogram.event - INFO - Update id=463301439 is handled. Duration 312 ms by bot id=5860538708
+2023-07-28 17:34:21,276 - aiogram.event - INFO - Update id=463301440 is handled. Duration 266 ms by bot id=5860538708
+2023-07-28 17:34:25,904 - aiogram.event - INFO - Update id=463301441 is not handled. Duration 0 ms by bot id=5860538708
+2023-07-28 17:34:44,070 - aiogram.event - INFO - Update id=463301442 is not handled. Duration 0 ms by bot id=5860538708
+2023-07-28 17:34:48,206 - aiogram.dispatcher - INFO - Polling stopped
+2023-07-28 17:34:48,207 - aiogram.dispatcher - INFO - Polling stopped for bot @FortuHost_bot id=5860538708 - 'Fortuhost'
+2023-07-28 17:34:48,208 - root - DEBUG - Bot stopped
+2023-07-28 17:34:50,849 - asyncio - DEBUG - Using proactor: IocpProactor
+2023-07-28 17:34:51,237 - aiogram.dispatcher - INFO - Start polling
+2023-07-28 17:34:51,333 - aiogram.dispatcher - INFO - Run polling for bot @FortuHost_bot id=5860538708 - 'Fortuhost'
+2023-07-28 17:34:57,036 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8000
+2023-07-28 17:34:57,065 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8000 "POST /v1/products/ HTTP/1.1" 200 0
+2023-07-28 17:34:57,066 - aiogram.event - INFO - Update id=463301443 is not handled. Duration 32 ms by bot id=5860538708
+2023-07-28 17:34:57,066 - aiogram.event - ERROR - Cause exception while process update id=463301443 by bot id=5860538708
+AttributeError: 'Message' object has no attribute 'message'
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\pydantic\main.py", line 702, in __getattr__
+    return pydantic_extra[item]
+           ~~~~~~~~~~~~~~^^^^^^
+KeyError: 'message'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 307, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 39, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 124, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 274, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 124, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\middleware\permission_check.py", line 19, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\handlers\parse.py", line 16, in parse_func
+    await callback_query.message.answer(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\pydantic\main.py", line 704, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}') from exc
+AttributeError: 'Message' object has no attribute 'message'
+2023-07-28 17:36:05,207 - aiogram.dispatcher - INFO - Polling stopped
+2023-07-28 17:36:05,208 - aiogram.dispatcher - INFO - Polling stopped for bot @FortuHost_bot id=5860538708 - 'Fortuhost'
+2023-07-28 17:36:05,209 - root - DEBUG - Bot stopped
+2023-07-28 17:36:07,782 - asyncio - DEBUG - Using proactor: IocpProactor
+2023-07-28 17:36:08,204 - aiogram.dispatcher - INFO - Start polling
+2023-07-28 17:36:08,324 - aiogram.dispatcher - INFO - Run polling for bot @FortuHost_bot id=5860538708 - 'Fortuhost'
+2023-07-28 17:36:13,573 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8000
+2023-07-28 17:36:13,586 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8000 "POST /v1/products/ HTTP/1.1" 200 0
+2023-07-28 17:36:13,943 - aiogram.event - INFO - Update id=463301444 is handled. Duration 375 ms by bot id=5860538708
+2023-07-28 17:36:28,657 - aiogram.event - INFO - Update id=463301445 is handled. Duration 217 ms by bot id=5860538708
+2023-07-28 17:36:31,182 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8000
+2023-07-28 17:36:31,194 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8000 "POST /v1/products/ HTTP/1.1" 200 0
+2023-07-28 17:36:31,319 - aiogram.event - INFO - Update id=463301446 is handled. Duration 141 ms by bot id=5860538708
+2023-07-28 17:38:26,037 - aiogram.dispatcher - INFO - Polling stopped
+2023-07-28 17:38:26,038 - aiogram.dispatcher - INFO - Polling stopped for bot @FortuHost_bot id=5860538708 - 'Fortuhost'
+2023-07-28 17:38:26,039 - root - DEBUG - Bot stopped
+2023-07-28 17:38:28,711 - asyncio - DEBUG - Using proactor: IocpProactor
+2023-07-28 17:38:29,505 - aiogram.dispatcher - INFO - Start polling
+2023-07-28 17:38:29,601 - aiogram.dispatcher - INFO - Run polling for bot @FortuHost_bot id=5860538708 - 'Fortuhost'
+2023-07-28 17:38:33,867 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8000
+2023-07-28 17:38:33,872 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8000 "GET /v1/products/ HTTP/1.1" 200 5092
+2023-07-28 17:38:34,251 - aiogram.event - INFO - Update id=463301447 is not handled. Duration 391 ms by bot id=5860538708
+2023-07-28 17:38:34,251 - aiogram.event - ERROR - Cause exception while process update id=463301447 by bot id=5860538708
+TelegramBadRequest: Telegram server says - Bad Request: MESSAGE_TOO_LONG
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 307, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 39, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 124, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 274, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 124, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\handlers\get_products.py", line 14, in get_products
+    await callback_query.answer(result)
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\methods\base.py", line 82, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\client\bot.py", line 433, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\client\session\base.py", line 251, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\client\session\aiohttp.py", line 170, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\client\session\base.py", line 114, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: MESSAGE_TOO_LONG
+2023-07-28 17:38:44,050 - aiogram.dispatcher - INFO - Polling stopped
+2023-07-28 17:38:44,051 - aiogram.dispatcher - INFO - Polling stopped for bot @FortuHost_bot id=5860538708 - 'Fortuhost'
+2023-07-28 17:38:44,053 - root - DEBUG - Bot stopped
+2023-07-28 17:38:46,619 - asyncio - DEBUG - Using proactor: IocpProactor
+2023-07-28 17:38:46,985 - aiogram.dispatcher - INFO - Start polling
+2023-07-28 17:38:47,068 - aiogram.dispatcher - INFO - Run polling for bot @FortuHost_bot id=5860538708 - 'Fortuhost'
+2023-07-28 17:38:50,975 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8000
+2023-07-28 17:38:50,980 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8000 "GET /v1/products/ HTTP/1.1" 200 5092
+2023-07-28 17:38:51,504 - aiogram.event - INFO - Update id=463301448 is handled. Duration 531 ms by bot id=5860538708
+2023-07-28 17:38:55,461 - aiogram.event - INFO - Update id=463301449 is handled. Duration 125 ms by bot id=5860538708
+2023-07-28 17:39:02,600 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8000
+2023-07-28 17:39:02,606 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8000 "GET /v1/products/ HTTP/1.1" 200 5092
+2023-07-28 17:39:02,607 - aiogram.event - INFO - Update id=463301450 is not handled. Duration 0 ms by bot id=5860538708
+2023-07-28 17:39:02,607 - aiogram.event - ERROR - Cause exception while process update id=463301450 by bot id=5860538708
+AttributeError: 'Message' object has no attribute 'message'
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\pydantic\main.py", line 702, in __getattr__
+    return pydantic_extra[item]
+           ~~~~~~~~~~~~~~^^^^^^
+KeyError: 'message'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 307, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 39, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 124, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 274, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 128, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 124, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\middleware\permission_check.py", line 19, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\handlers\get_products.py", line 14, in get_products
+    await callback_query.message.answer(result)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\pydantic\main.py", line 704, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}') from exc
+AttributeError: 'Message' object has no attribute 'message'
+2023-07-28 17:39:42,952 - aiogram.dispatcher - INFO - Polling stopped
+2023-07-28 17:39:42,953 - aiogram.dispatcher - INFO - Polling stopped for bot @FortuHost_bot id=5860538708 - 'Fortuhost'
+2023-07-28 17:39:42,954 - root - DEBUG - Bot stopped
+2023-07-28 17:39:45,574 - asyncio - DEBUG - Using proactor: IocpProactor
+2023-07-28 17:39:45,902 - aiogram.dispatcher - INFO - Start polling
+2023-07-28 17:39:45,981 - aiogram.dispatcher - INFO - Run polling for bot @FortuHost_bot id=5860538708 - 'Fortuhost'
+2023-07-28 17:39:54,241 - aiogram.dispatcher - INFO - Polling stopped
+2023-07-28 17:39:54,242 - aiogram.dispatcher - INFO - Polling stopped for bot @FortuHost_bot id=5860538708 - 'Fortuhost'
+2023-07-28 17:39:54,244 - root - DEBUG - Bot stopped
+2023-07-28 17:39:56,824 - asyncio - DEBUG - Using proactor: IocpProactor
+2023-07-28 17:39:57,205 - aiogram.dispatcher - INFO - Start polling
+2023-07-28 17:39:57,293 - aiogram.dispatcher - INFO - Run polling for bot @FortuHost_bot id=5860538708 - 'Fortuhost'
+2023-07-28 17:40:01,109 - aiogram.event - INFO - Update id=463301451 is handled. Duration 421 ms by bot id=5860538708
+2023-07-28 17:40:02,186 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8000
+2023-07-28 17:40:02,202 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8000 "POST /v1/products/ HTTP/1.1" 200 0
+2023-07-28 17:40:02,380 - aiogram.event - INFO - Update id=463301452 is handled. Duration 203 ms by bot id=5860538708
+2023-07-28 17:40:49,539 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8000
+2023-07-28 17:40:49,545 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8000 "GET /v1/products/ HTTP/1.1" 200 24971
+2023-07-28 17:40:50,793 - aiogram.event - INFO - Update id=463301453 is handled. Duration 1250 ms by bot id=5860538708
+2023-07-28 18:18:37,219 - apscheduler.executors.default - ERROR - Job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:18:38 MSK)" raised an exception
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\apscheduler\executors\base_py3.py", line 30, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\utils\consumer.py", line 11, in check_redis_message
+    message = await redis.redis.lpop('parser')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\client.py", line 518, in execute_command
+    return await conn.retry.call_with_retry(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\retry.py", line 62, in call_with_retry
+    await fail(error)
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\client.py", line 505, in _disconnect_raise
+    raise error
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\retry.py", line 59, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\client.py", line 492, in _send_command_parse_response
+    return await self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\client.py", line 539, in parse_response
+    response = await connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 782, in read_response
+    response = await self._parser.read_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 262, in read_response
+    response = await self._read_response(disable_decoding=disable_decoding)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 270, in _read_response
+    raw = await self._readline()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 346, in _readline
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+2023-07-28 18:18:39,218 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:18:39 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:18:40,215 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:18:40 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:18:41,205 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:18:41 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:18:42,217 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:18:42 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:18:42,312 - apscheduler.executors.default - ERROR - Job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:18:43 MSK)" raised an exception
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 577, in connect
+    await self.retry.call_with_retry(
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\retry.py", line 59, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 922, in _connect
+    reader, writer = await asyncio.open_connection(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1090, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1069, in create_connection
+    sock = await self._connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 973, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py", line 726, in sock_connect
+    return await self._proactor.connect(sock, address)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 846, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 633, in finish_connect
+    ov.getresult()
+ConnectionRefusedError: [WinError 1225] Удаленный компьютер отклонил это сетевое подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\apscheduler\executors\base_py3.py", line 30, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\utils\consumer.py", line 11, in check_redis_message
+    message = await redis.redis.lpop('parser')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\client.py", line 513, in execute_command
+    conn = self.connection or await pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 1375, in get_connection
+    await connection.connect()
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 585, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 22 connecting to localhost:16379. 22.
+2023-07-28 18:18:44,216 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:18:44 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:18:45,211 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:18:45 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:18:46,213 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:18:46 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:18:47,206 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:18:47 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:18:47,268 - apscheduler.executors.default - ERROR - Job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:18:48 MSK)" raised an exception
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 577, in connect
+    await self.retry.call_with_retry(
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\retry.py", line 59, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 922, in _connect
+    reader, writer = await asyncio.open_connection(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1090, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1069, in create_connection
+    sock = await self._connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 973, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py", line 726, in sock_connect
+    return await self._proactor.connect(sock, address)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 846, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 633, in finish_connect
+    ov.getresult()
+ConnectionRefusedError: [WinError 1225] Удаленный компьютер отклонил это сетевое подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\apscheduler\executors\base_py3.py", line 30, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\utils\consumer.py", line 11, in check_redis_message
+    message = await redis.redis.lpop('parser')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\client.py", line 513, in execute_command
+    conn = self.connection or await pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 1375, in get_connection
+    await connection.connect()
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 585, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 22 connecting to localhost:16379. 22.
+2023-07-28 18:18:49,212 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:18:49 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:18:50,210 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:18:50 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:18:51,212 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:18:51 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:18:52,207 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:18:52 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:18:52,302 - apscheduler.executors.default - ERROR - Job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:18:53 MSK)" raised an exception
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 577, in connect
+    await self.retry.call_with_retry(
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\retry.py", line 59, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 922, in _connect
+    reader, writer = await asyncio.open_connection(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1090, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1069, in create_connection
+    sock = await self._connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 973, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py", line 726, in sock_connect
+    return await self._proactor.connect(sock, address)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 846, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 633, in finish_connect
+    ov.getresult()
+ConnectionRefusedError: [WinError 1225] Удаленный компьютер отклонил это сетевое подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\apscheduler\executors\base_py3.py", line 30, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\utils\consumer.py", line 11, in check_redis_message
+    message = await redis.redis.lpop('parser')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\client.py", line 513, in execute_command
+    conn = self.connection or await pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 1375, in get_connection
+    await connection.connect()
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 585, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 22 connecting to localhost:16379. 22.
+2023-07-28 18:18:54,221 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:18:54 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:18:55,206 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:18:55 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:18:56,205 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:18:56 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:18:57,205 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:18:57 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:18:57,268 - apscheduler.executors.default - ERROR - Job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:18:58 MSK)" raised an exception
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 577, in connect
+    await self.retry.call_with_retry(
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\retry.py", line 59, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 922, in _connect
+    reader, writer = await asyncio.open_connection(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1090, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1069, in create_connection
+    sock = await self._connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 973, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py", line 726, in sock_connect
+    return await self._proactor.connect(sock, address)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 846, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 633, in finish_connect
+    ov.getresult()
+ConnectionRefusedError: [WinError 1225] Удаленный компьютер отклонил это сетевое подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\apscheduler\executors\base_py3.py", line 30, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\utils\consumer.py", line 11, in check_redis_message
+    message = await redis.redis.lpop('parser')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\client.py", line 513, in execute_command
+    conn = self.connection or await pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 1375, in get_connection
+    await connection.connect()
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 585, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 22 connecting to localhost:16379. 22.
+2023-07-28 18:18:59,221 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:18:59 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:19:00,216 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:19:00 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:19:01,214 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:19:01 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:19:02,210 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:19:02 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:19:02,303 - apscheduler.executors.default - ERROR - Job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:19:03 MSK)" raised an exception
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 577, in connect
+    await self.retry.call_with_retry(
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\retry.py", line 59, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 922, in _connect
+    reader, writer = await asyncio.open_connection(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1090, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1069, in create_connection
+    sock = await self._connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 973, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py", line 726, in sock_connect
+    return await self._proactor.connect(sock, address)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 846, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 633, in finish_connect
+    ov.getresult()
+ConnectionRefusedError: [WinError 1225] Удаленный компьютер отклонил это сетевое подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\apscheduler\executors\base_py3.py", line 30, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\utils\consumer.py", line 11, in check_redis_message
+    message = await redis.redis.lpop('parser')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\client.py", line 513, in execute_command
+    conn = self.connection or await pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 1375, in get_connection
+    await connection.connect()
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 585, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 22 connecting to localhost:16379. 22.
+2023-07-28 18:19:04,214 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:19:04 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:19:05,220 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:19:05 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:19:06,209 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:19:06 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:19:07,215 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:19:07 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:19:07,308 - apscheduler.executors.default - ERROR - Job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:19:08 MSK)" raised an exception
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 577, in connect
+    await self.retry.call_with_retry(
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\retry.py", line 59, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 922, in _connect
+    reader, writer = await asyncio.open_connection(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1090, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1069, in create_connection
+    sock = await self._connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 973, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py", line 726, in sock_connect
+    return await self._proactor.connect(sock, address)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 846, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 633, in finish_connect
+    ov.getresult()
+ConnectionRefusedError: [WinError 1225] Удаленный компьютер отклонил это сетевое подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\apscheduler\executors\base_py3.py", line 30, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\utils\consumer.py", line 11, in check_redis_message
+    message = await redis.redis.lpop('parser')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\client.py", line 513, in execute_command
+    conn = self.connection or await pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 1375, in get_connection
+    await connection.connect()
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 585, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 22 connecting to localhost:16379. 22.
+2023-07-28 18:19:09,207 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:19:09 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:19:10,214 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:19:10 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:19:11,211 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:19:11 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:19:12,210 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:19:12 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:19:12,274 - apscheduler.executors.default - ERROR - Job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:19:13 MSK)" raised an exception
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 577, in connect
+    await self.retry.call_with_retry(
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\retry.py", line 59, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 922, in _connect
+    reader, writer = await asyncio.open_connection(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1090, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1069, in create_connection
+    sock = await self._connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 973, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py", line 726, in sock_connect
+    return await self._proactor.connect(sock, address)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 846, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 633, in finish_connect
+    ov.getresult()
+ConnectionRefusedError: [WinError 1225] Удаленный компьютер отклонил это сетевое подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\apscheduler\executors\base_py3.py", line 30, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\utils\consumer.py", line 11, in check_redis_message
+    message = await redis.redis.lpop('parser')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\client.py", line 513, in execute_command
+    conn = self.connection or await pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 1375, in get_connection
+    await connection.connect()
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 585, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 22 connecting to localhost:16379. 22.
+2023-07-28 18:19:14,219 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:19:14 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:19:15,212 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:19:15 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:19:16,211 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:19:16 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:19:17,218 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:19:17 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:19:17,298 - apscheduler.executors.default - ERROR - Job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:19:18 MSK)" raised an exception
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 577, in connect
+    await self.retry.call_with_retry(
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\retry.py", line 59, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 922, in _connect
+    reader, writer = await asyncio.open_connection(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1090, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1069, in create_connection
+    sock = await self._connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 973, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py", line 726, in sock_connect
+    return await self._proactor.connect(sock, address)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 846, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 633, in finish_connect
+    ov.getresult()
+ConnectionRefusedError: [WinError 1225] Удаленный компьютер отклонил это сетевое подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\apscheduler\executors\base_py3.py", line 30, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\utils\consumer.py", line 11, in check_redis_message
+    message = await redis.redis.lpop('parser')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\client.py", line 513, in execute_command
+    conn = self.connection or await pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 1375, in get_connection
+    await connection.connect()
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 585, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 22 connecting to localhost:16379. 22.
+2023-07-28 18:19:19,218 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:19:19 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:19:20,205 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:19:20 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:19:21,217 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:19:21 MSK)" skipped: maximum number of running instances reached (1)

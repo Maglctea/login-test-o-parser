@@ -5,9 +5,11 @@ __all__ = [
 from aiogram import Router, F
 from aiogram.filters import CommandStart, Command
 
+from bot.handlers.get_products import get_products
 from bot.handlers.help import help_command, help_func
-from bot.handlers.parse import parse_command, parse_func
+from bot.handlers.parse import parse_func
 from bot.handlers.start import start
+from bot.structure import MainMenuCallback, MainMenuActions
 
 
 def register_user_commands(router: Router) -> None:
@@ -25,8 +27,11 @@ def register_user_commands(router: Router) -> None:
 
     # parse
     router.message.register(parse_func, F.text.capitalize() == "Начать парсинг")
-    router.message.register(parse_command, Command(commands=["parse"]))
+    router.callback_query.register(parse_func, MainMenuCallback.filter(
+        F.action == MainMenuActions.START_PARSING
+    ))
 
-    router.message.register(parse_func, F.text.capitalize() == "Список товаров")
-    # router.message.register(get_poducts_command, Command(commands=["get"]))
-
+    router.message.register(get_products, F.text.capitalize() == "Покажи данные")
+    router.callback_query.register(get_products, MainMenuCallback.filter(
+        F.action == MainMenuActions.SHOW_DATA
+    ))
