@@ -21,7 +21,7 @@ class ListProductsView(ListCreateAPIView):
         elif self.request.method == 'POST':
             return ParserSerializer
 
-    def post(self, request, *args, **kwargs):
+    def post(self, request, *args, **kwargs) -> Response:
         serializer = self.serializer_class(data=request.data)
 
         if serializer.is_valid():
