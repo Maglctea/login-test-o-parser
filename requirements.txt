@@ -12,3 +12,4 @@ aiogram
 pydantic==2.0.3
 requests==2.31.0
 APScheduler==3.10.1
+eventlet==0.33.3

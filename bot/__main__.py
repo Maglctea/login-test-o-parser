@@ -2,10 +2,8 @@
 Main
 """
 import asyncio
-from datetime import datetime
 
 from aiogram import Bot, Dispatcher
-from aiogram.fsm.storage.memory import MemoryStorage
 from aiogram.types import BotCommand
 
 from bot.bot_texts import BOT_COMMANDS_INFO
@@ -23,7 +21,6 @@ from bot.utils.consumer import check_redis_message
 
 async def async_main() -> None:
     # init bot
-    # storage = MemoryStorage()
     storage = RedisStorage.from_url("redis://localhost:16379/0")
     bot = Bot(token=BOT_KEY)
     dp = Dispatcher(storage=storage)
@@ -52,13 +49,8 @@ async def async_main() -> None:
     )
     scheduler.start()
 
-    # register permission middleware
     dp.message.middleware.register(PermissionCheckMiddleware())
     await dp.start_polling(bot)
-    # loop = asyncio.get_event_loop()
-    # loop.create_task(dp.start_polling(bot))
-    # loop.run_until_complete(await listen_redis(bot))
-    # loop.run_forever()
 
 
 def main():

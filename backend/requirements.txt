@@ -8,3 +8,4 @@ django-celery-results==2.5.1
 redis==4.6.0
 beautifulsoup4==4.12.2
 mysqlclient==2.2.0
+eventlet==0.33.3

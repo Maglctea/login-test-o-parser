@@ -2350,3 +2350,458 @@ redis.exceptions.ConnectionError: Error 22 connecting to localhost:16379. 22.
 2023-07-28 18:19:19,218 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:19:19 MSK)" skipped: maximum number of running instances reached (1)
 2023-07-28 18:19:20,205 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:19:20 MSK)" skipped: maximum number of running instances reached (1)
 2023-07-28 18:19:21,217 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:19:21 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:38:01,210 - apscheduler.executors.default - ERROR - Job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:02 MSK)" raised an exception
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\apscheduler\executors\base_py3.py", line 30, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\utils\consumer.py", line 11, in check_redis_message
+    message = await redis.redis.lpop('parser')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\client.py", line 518, in execute_command
+    return await conn.retry.call_with_retry(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\retry.py", line 62, in call_with_retry
+    await fail(error)
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\client.py", line 505, in _disconnect_raise
+    raise error
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\retry.py", line 59, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\client.py", line 492, in _send_command_parse_response
+    return await self.parse_response(conn, command_name, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\client.py", line 539, in parse_response
+    response = await connection.read_response()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 782, in read_response
+    response = await self._parser.read_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 262, in read_response
+    response = await self._read_response(disable_decoding=disable_decoding)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 270, in _read_response
+    raw = await self._readline()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 346, in _readline
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+2023-07-28 18:38:03,210 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:03 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:38:04,213 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:04 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:38:05,215 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:05 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:38:06,220 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:06 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:38:06,251 - apscheduler.executors.default - ERROR - Job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:07 MSK)" raised an exception
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 577, in connect
+    await self.retry.call_with_retry(
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\retry.py", line 59, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 922, in _connect
+    reader, writer = await asyncio.open_connection(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1090, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1069, in create_connection
+    sock = await self._connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 973, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py", line 726, in sock_connect
+    return await self._proactor.connect(sock, address)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 846, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 633, in finish_connect
+    ov.getresult()
+ConnectionRefusedError: [WinError 1225] Удаленный компьютер отклонил это сетевое подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\apscheduler\executors\base_py3.py", line 30, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\utils\consumer.py", line 11, in check_redis_message
+    message = await redis.redis.lpop('parser')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\client.py", line 513, in execute_command
+    conn = self.connection or await pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 1375, in get_connection
+    await connection.connect()
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 585, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 22 connecting to localhost:16379. 22.
+2023-07-28 18:38:08,217 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:08 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:38:09,210 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:09 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:38:10,215 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:10 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:38:11,215 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:11 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:38:11,293 - apscheduler.executors.default - ERROR - Job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:12 MSK)" raised an exception
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 577, in connect
+    await self.retry.call_with_retry(
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\retry.py", line 59, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 922, in _connect
+    reader, writer = await asyncio.open_connection(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1090, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1069, in create_connection
+    sock = await self._connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 973, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py", line 726, in sock_connect
+    return await self._proactor.connect(sock, address)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 846, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 633, in finish_connect
+    ov.getresult()
+ConnectionRefusedError: [WinError 1225] Удаленный компьютер отклонил это сетевое подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\apscheduler\executors\base_py3.py", line 30, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\utils\consumer.py", line 11, in check_redis_message
+    message = await redis.redis.lpop('parser')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\client.py", line 513, in execute_command
+    conn = self.connection or await pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 1375, in get_connection
+    await connection.connect()
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 585, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 22 connecting to localhost:16379. 22.
+2023-07-28 18:38:13,213 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:13 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:38:14,211 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:14 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:38:15,217 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:15 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:38:16,219 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:16 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:38:16,251 - apscheduler.executors.default - ERROR - Job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:17 MSK)" raised an exception
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 577, in connect
+    await self.retry.call_with_retry(
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\retry.py", line 59, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 922, in _connect
+    reader, writer = await asyncio.open_connection(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1090, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1069, in create_connection
+    sock = await self._connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 973, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py", line 726, in sock_connect
+    return await self._proactor.connect(sock, address)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 846, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 633, in finish_connect
+    ov.getresult()
+ConnectionRefusedError: [WinError 1225] Удаленный компьютер отклонил это сетевое подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\apscheduler\executors\base_py3.py", line 30, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\utils\consumer.py", line 11, in check_redis_message
+    message = await redis.redis.lpop('parser')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\client.py", line 513, in execute_command
+    conn = self.connection or await pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 1375, in get_connection
+    await connection.connect()
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 585, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 22 connecting to localhost:16379. 22.
+2023-07-28 18:38:18,219 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:18 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:38:19,213 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:19 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:38:20,216 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:20 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:38:21,207 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:21 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:38:21,253 - apscheduler.executors.default - ERROR - Job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:22 MSK)" raised an exception
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 577, in connect
+    await self.retry.call_with_retry(
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\retry.py", line 59, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 922, in _connect
+    reader, writer = await asyncio.open_connection(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1090, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1069, in create_connection
+    sock = await self._connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 973, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py", line 726, in sock_connect
+    return await self._proactor.connect(sock, address)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 846, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 633, in finish_connect
+    ov.getresult()
+ConnectionRefusedError: [WinError 1225] Удаленный компьютер отклонил это сетевое подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\apscheduler\executors\base_py3.py", line 30, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\utils\consumer.py", line 11, in check_redis_message
+    message = await redis.redis.lpop('parser')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\client.py", line 513, in execute_command
+    conn = self.connection or await pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 1375, in get_connection
+    await connection.connect()
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 585, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 22 connecting to localhost:16379. 22.
+2023-07-28 18:38:23,221 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:23 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:38:24,209 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:24 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:38:25,594 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:25 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:38:26,305 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:26 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:38:26,636 - apscheduler.executors.default - ERROR - Job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:27 MSK)" raised an exception
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 577, in connect
+    await self.retry.call_with_retry(
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\retry.py", line 59, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 922, in _connect
+    reader, writer = await asyncio.open_connection(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1090, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1069, in create_connection
+    sock = await self._connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 973, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py", line 726, in sock_connect
+    return await self._proactor.connect(sock, address)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 846, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 633, in finish_connect
+    ov.getresult()
+ConnectionRefusedError: [WinError 1225] Удаленный компьютер отклонил это сетевое подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\apscheduler\executors\base_py3.py", line 30, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\utils\consumer.py", line 11, in check_redis_message
+    message = await redis.redis.lpop('parser')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\client.py", line 513, in execute_command
+    conn = self.connection or await pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 1375, in get_connection
+    await connection.connect()
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 585, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 22 connecting to localhost:16379. 22.
+2023-07-28 18:38:28,215 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:28 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:38:29,218 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:29 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:38:30,214 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:30 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:38:31,209 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:31 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:38:31,383 - apscheduler.executors.default - ERROR - Job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:32 MSK)" raised an exception
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 577, in connect
+    await self.retry.call_with_retry(
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\retry.py", line 59, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 922, in _connect
+    reader, writer = await asyncio.open_connection(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1090, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1069, in create_connection
+    sock = await self._connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 973, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py", line 726, in sock_connect
+    return await self._proactor.connect(sock, address)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 846, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 633, in finish_connect
+    ov.getresult()
+ConnectionRefusedError: [WinError 1225] Удаленный компьютер отклонил это сетевое подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\apscheduler\executors\base_py3.py", line 30, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\utils\consumer.py", line 11, in check_redis_message
+    message = await redis.redis.lpop('parser')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\client.py", line 513, in execute_command
+    conn = self.connection or await pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 1375, in get_connection
+    await connection.connect()
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 585, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 22 connecting to localhost:16379. 22.
+2023-07-28 18:38:33,205 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:33 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:38:34,214 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:34 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:38:35,219 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:35 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:38:36,211 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:36 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:38:36,432 - apscheduler.executors.default - ERROR - Job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:37 MSK)" raised an exception
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 577, in connect
+    await self.retry.call_with_retry(
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\retry.py", line 59, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 922, in _connect
+    reader, writer = await asyncio.open_connection(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1090, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1069, in create_connection
+    sock = await self._connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 973, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py", line 726, in sock_connect
+    return await self._proactor.connect(sock, address)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 846, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 633, in finish_connect
+    ov.getresult()
+ConnectionRefusedError: [WinError 1225] Удаленный компьютер отклонил это сетевое подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\apscheduler\executors\base_py3.py", line 30, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\utils\consumer.py", line 11, in check_redis_message
+    message = await redis.redis.lpop('parser')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\client.py", line 513, in execute_command
+    conn = self.connection or await pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 1375, in get_connection
+    await connection.connect()
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 585, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 22 connecting to localhost:16379. 22.
+2023-07-28 18:38:38,218 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:38 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:38:39,207 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:39 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:38:40,282 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:40 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:38:41,207 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:41 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:38:41,299 - apscheduler.executors.default - ERROR - Job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:42 MSK)" raised an exception
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 577, in connect
+    await self.retry.call_with_retry(
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\retry.py", line 59, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 922, in _connect
+    reader, writer = await asyncio.open_connection(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1090, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1069, in create_connection
+    sock = await self._connect_sock(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 973, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py", line 726, in sock_connect
+    return await self._proactor.connect(sock, address)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 846, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 633, in finish_connect
+    ov.getresult()
+ConnectionRefusedError: [WinError 1225] Удаленный компьютер отклонил это сетевое подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\apscheduler\executors\base_py3.py", line 30, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\utils\consumer.py", line 11, in check_redis_message
+    message = await redis.redis.lpop('parser')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\client.py", line 513, in execute_command
+    conn = self.connection or await pool.get_connection(command_name, **options)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 1375, in get_connection
+    await connection.connect()
+  File "C:\Users\Magictea\Desktop\Python\login-test-o-parser\bot\venv\Lib\site-packages\redis\asyncio\connection.py", line 585, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 22 connecting to localhost:16379. 22.
+2023-07-28 18:38:43,217 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:43 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 18:38:44,210 - apscheduler.scheduler - WARNING - Execution of job "check_redis_message (trigger: interval[0:00:01], next run at: 2023-07-28 18:38:44 MSK)" skipped: maximum number of running instances reached (1)
+2023-07-28 19:01:59,032 - aiogram.dispatcher - INFO - Polling stopped
+2023-07-28 19:01:59,041 - aiogram.dispatcher - INFO - Polling stopped for bot @FortuHost_bot id=5860538708 - 'Fortuhost'
+2023-07-28 19:01:59,045 - root - DEBUG - Bot stopped
+2023-07-28 19:05:06,104 - asyncio - DEBUG - Using proactor: IocpProactor
+2023-07-28 19:05:06,652 - aiogram.dispatcher - INFO - Start polling
+2023-07-28 19:05:06,743 - aiogram.dispatcher - INFO - Run polling for bot @FortuHost_bot id=5860538708 - 'Fortuhost'
+2023-07-28 19:05:09,135 - aiogram.dispatcher - INFO - Polling stopped
+2023-07-28 19:05:09,136 - aiogram.dispatcher - INFO - Polling stopped for bot @FortuHost_bot id=5860538708 - 'Fortuhost'
+2023-07-28 19:05:09,137 - root - DEBUG - Bot stopped
