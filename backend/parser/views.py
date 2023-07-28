@@ -26,8 +26,8 @@ class ListProductsView(ListCreateAPIView):
 
         if serializer.is_valid():
             parsing_start.delay(serializer.data.get('products_count'))
-
-        return Response(status=status.HTTP_200_OK)
+            return Response(status=status.HTTP_200_OK)
+        return Response(status=status.HTTP_400_BAD_REQUEST)
 
 
 class DetailProductsView(RetrieveAPIView):

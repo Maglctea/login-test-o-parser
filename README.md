@@ -71,6 +71,14 @@ cd login-test-o-parser
    
 <hr/>
 
+## Testing
+Start tests
+```bash
+python manage.py test
+```
+   
+<hr/>
+
 ## Documentation
 
 ### Admin panel
