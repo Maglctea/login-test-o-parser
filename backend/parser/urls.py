@@ -1,5 +1,4 @@
 from django.urls import path
-from setuptools import namespaces
 
 from parser.views import ListProductsView, DetailProductsView
 
