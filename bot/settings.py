@@ -28,5 +28,7 @@ load_dotenv(BASE_DIR / ".env")
 
 # TG
 BOT_KEY = os.getenv("TG_KEY")
-ADMINS_USERNAMES = os.getenv("ADMINS_USERNAMES", "Flopp,maglctea").split(',')
+API_LINK = os.getenv("API_LINK")
+ADMINS_USERNAMES = os.getenv("ADMINS_USERNAMES", "maglctea").split(',')
 ADMINS_IDS = os.getenv("ADMINS_IDS", "").split(',')
+MAX_ITEMS_PARSED_COUNT = os.getenv("MAX_ITEMS_PARSED_COUNT")

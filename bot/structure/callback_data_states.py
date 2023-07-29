@@ -8,7 +8,6 @@ class MainMenuActions(enum.IntEnum):
         Statistic actions
     """
     START_PARSING = 0
-    COLLECT_DATA = 1
     SHOW_DATA = 2
 
 
